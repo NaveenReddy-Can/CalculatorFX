@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="561.0" prefWidth="495.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.SampleController">
+	<children>
+		<GridPane layoutX="11.0" layoutY="134.0" prefHeight="414.0"
+			prefWidth="484.0">
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES"
+					maxWidth="93.0" minWidth="10.0" prefWidth="93.0" />
+				<ColumnConstraints hgrow="SOMETIMES"
+					maxWidth="94.0" minWidth="10.0" prefWidth="91.0" />
+				<ColumnConstraints hgrow="SOMETIMES"
+					maxWidth="107.0" minWidth="10.0" prefWidth="96.0" />
+				<ColumnConstraints hgrow="SOMETIMES"
+					maxWidth="104.0" minWidth="10.0" prefWidth="96.0" />
+				<ColumnConstraints hgrow="SOMETIMES"
+					maxWidth="110.0" minWidth="10.0" prefWidth="107.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints maxHeight="131.0" minHeight="10.0"
+					prefHeight="103.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="150.0" minHeight="10.0"
+					prefHeight="103.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="117.0" minHeight="10.0"
+					prefHeight="103.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="117.0" minHeight="10.0"
+					prefHeight="105.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			<children>
+				<Button fx:id="btn7" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="7"
+					textAlignment="CENTER">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btn8" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="8"
+					textAlignment="CENTER" GridPane.columnIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+					<effect>
+						<InnerShadow color="#00ff2f" />
+					</effect>
+				</Button>
+				<Button fx:id="btn9" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="9"
+					textAlignment="CENTER" GridPane.columnIndex="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+
+				</Button>
+				<Button fx:id="btnPercentage" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0"
+					text="\%" textAlignment="CENTER" GridPane.columnIndex="3">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btn4" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="4"
+					textAlignment="CENTER" GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btn5" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="5"
+					textAlignment="CENTER" GridPane.columnIndex="1"
+					GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btn6" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="6"
+					textAlignment="CENTER" GridPane.columnIndex="2"
+					GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btnMultiply" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0" text="x"
+					textAlignment="CENTER" GridPane.columnIndex="3"
+					GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+
+				</Button>
+				<Button fx:id="btnSqrt" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0"
+					text="sqrt" textAlignment="CENTER" GridPane.columnIndex="4">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btnDivide" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0" text="/"
+					textAlignment="CENTER" GridPane.columnIndex="4"
+					GridPane.rowIndex="1">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btn2" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="2"
+					textAlignment="CENTER" GridPane.columnIndex="1"
+					GridPane.rowIndex="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btn1" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="1"
+					textAlignment="CENTER" GridPane.rowIndex="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btnMinus" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0" text="-"
+					textAlignment="CENTER" GridPane.columnIndex="4"
+					GridPane.rowIndex="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btn3" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="3"
+					textAlignment="CENTER" GridPane.columnIndex="2"
+					GridPane.rowIndex="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btn0" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="0"
+					textAlignment="CENTER" GridPane.rowIndex="3">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<InnerShadow color="#00ff15" />
+					</effect>
+				</Button>
+				<Button fx:id="btnPlusMinus" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0"
+					text="+/-" textAlignment="CENTER" GridPane.columnIndex="2"
+					GridPane.rowIndex="3">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btnDot" mnemonicParsing="false"
+					onAction="#btnClick" prefHeight="90.0" prefWidth="85.0" text="."
+					textAlignment="CENTER" GridPane.columnIndex="1"
+					GridPane.rowIndex="3">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btnEquals" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="90.0" prefWidth="85.0" text="="
+					textAlignment="CENTER" GridPane.columnIndex="4"
+					GridPane.rowIndex="3">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+				<Button fx:id="btnPlus" mnemonicParsing="false"
+					onAction="#btnOperator" prefHeight="195.0" prefWidth="85.0"
+					text="+" textAlignment="CENTER" GridPane.columnIndex="3"
+					GridPane.rowIndex="2" GridPane.rowSpan="2">
+					<GridPane.margin>
+						<Insets left="7.0" />
+					</GridPane.margin>
+					<font>
+						<Font name="System Bold" size="17.0" />
+					</font>
+					<effect>
+						<Glow>
+							<input>
+								<InnerShadow color="#0092f5" />
+							</input>
+						</Glow>
+					</effect>
+				</Button>
+
+			</children>
+		</GridPane>
+		<TextField fx:id="textField" alignment="CENTER_RIGHT"
+			editable="false" layoutX="20.0" layoutY="32.0" prefHeight="90.0"
+			prefWidth="365.0" promptText="0">
+			<font>
+				<Font size="32.0" />
+			</font>
+			<effect>
+				<InnerShadow color="#b852d1" />
+			</effect>
+		</TextField>
+		<Button fx:id="btnClear" layoutX="394.0" layoutY="32.0"
+			mnemonicParsing="false" onAction="#btnClear" prefHeight="90.0"
+			prefWidth="85.0" text="CE" textAlignment="CENTER" textFill="#f50000">
+			<font>
+				<Font name="System Bold" size="18.0" />
+			</font>
+			<effect>
+				<InnerShadow blurType="GAUSSIAN" color="#ff0d05">
+					<input>
+						<Blend>
+							<topInput>
+								<ColorInput />
+							</topInput>
+						</Blend>
+					</input>
+				</InnerShadow>
+			</effect>
+		</Button>
+	</children>
+</AnchorPane>
